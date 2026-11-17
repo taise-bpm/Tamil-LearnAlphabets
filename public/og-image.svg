@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="120" r="280" fill="#ffffff" opacity="0.08"/>
+  <circle cx="150" cy="550" r="220" fill="#ffffff" opacity="0.06"/>
+
+  <!-- Card Container -->
+  <rect x="80" y="80" width="1040" height="470" rx="36" fill="#ffffff" opacity="0.95" filter="url(#shadow)"/>
+
+  <!-- Tamil Letter Hero Badge -->
+  <rect x="140" y="140" width="180" height="180" rx="32" fill="#ea580c"/>
+  <text x="230" y="270" font-family="'Noto Sans Tamil', system-ui, sans-serif" font-size="120" font-weight="900" fill="#ffffff" text-anchor="middle">அ</text>
+
+  <!-- Title & Branding -->
+  <text x="360" y="195" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="800" fill="#ea580c" letter-spacing="3">TAMIL.TAISE.IN</text>
+  <text x="360" y="255" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="52" font-weight="800" fill="#0f172a">Tamil Alphabet Tutor</text>
+  <text x="360" y="305" font-family="'Noto Sans Tamil', system-ui, sans-serif" font-size="32" font-weight="700" fill="#475569">தமிழ் எழுத்து பயிற்றுவிப்பாளர்</text>
+
+  <!-- Features Badge Strip -->
+  <rect x="140" y="380" width="280" height="64" rx="20" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+  <text x="280" y="422" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="700" fill="#c2410c" text-anchor="middle">✍️ Draw &amp; Trace Canvas</text>
+
+  <rect x="440" y="380" width="300" height="64" rx="20" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="2"/>
+  <text x="590" y="422" font-family="'Noto Sans Malayalam', system-ui, sans-serif" font-size="20" font-weight="700" fill="#065f46" text-anchor="middle">മലയാളം സ്വരം Support</text>
+
+  <rect x="760" y="380" width="280" height="64" rx="20" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="900" y="422" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="700" fill="#1e40af" text-anchor="middle">🔊 Audio Pronunciation</text>
+
+  <!-- Footer URL -->
+  <text x="600" y="500" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="600" fill="#94a3b8" text-anchor="middle">https://tamil.taise.in • Free Interactive Tamil Learning Web App</text>
+</svg>

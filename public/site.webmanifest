@@ -1,0 +1,17 @@
+{
+  "name": "Tamil Alphabet Tutor - தமிழ் எழுத்து பயிற்றுவிப்பாளர்",
+  "short_name": "Tamil Tutor",
+  "description": "Learn Tamil alphabet with Malayalam and English swaram guides and interactive drawing practice.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

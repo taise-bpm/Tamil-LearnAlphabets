@@ -1,0 +1,6 @@
+# robots.txt for https://tamil.taise.in/
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tamil.taise.in/sitemap.xml
